@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/*detect if mobile*/
+
 body {
     font-family: 'Poppins', sans-serif;
     background: rgb(255,255,255);
     background: linear-gradient(151deg, rgba(255,255,255,1) 0%, rgba(209,209,222,1) 35%, rgba(158,181,186,1) 100%);
-    padding: 100px;
     background-size: 1000% 1000%;
     color: black;
 }
-
 button {
     width: 50%;
     height: 50px;

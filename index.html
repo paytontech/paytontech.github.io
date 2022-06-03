@@ -7,9 +7,11 @@
     <title>paytondev</title>
     <link rel="stylesheet" href="design.css">
     <script src="mobile.js"></script>
+    <script src="settings.js"></script>
 </head>
-<body onload="checkMobile()">
+<body onload="checkMobile(); checkDarkMode();">
     <center>
+        <button style="position: sticky;" id="darkmode" onclick="toggleDarkMode()"></button>
         <h1>Hi, I'm <a href="https://twitter.com/paytondev">paytondev</a>👋</h1>
         <h2>I'm a bit of a developer myself</h2>
         <p>I'm <a href="https://twitter.com/paytondev">paytondev</a>, a versatile developer with (sometimes) good ideas</p>

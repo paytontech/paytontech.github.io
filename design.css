@@ -5,42 +5,24 @@
 body {
     font-family: 'Poppins', sans-serif;
     background: rgb(255,255,255);
-    background: linear-gradient(151deg, rgba(255,255,255,1) 0%, rgba(209,209,222,1) 35%, rgba(158,181,186,1) 100%);
     background-size: 1000% 1000%;
-    color: black;
+}
+a {
+    color: rgb(6, 164, 255);
+}
+a:visited {
+    color: rgb(172, 21, 199);
 }
 button {
-    width: 50%;
-    height: 50px;
+    background-color: transparent;
     border: none;
-    border-radius: 15px;
-    background: #ffffff;
-    color: #7922dd;
-    font-size: 20px;
-    transition-delay: 10ms;
-    transition-duration: 200ms;
 }
-button:hover {
-    width: 50%;
-    height: 50px;
-    border: none;
-    border-radius: 15px;
-    background: #bebebe;
-    color: #7922dd;
-    font-size: 20px;
-    text-shadow: 0 0 10px #5e29b4;
+#darkmode {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    float: right;
 }
-button:active {
-    width: 50%;
-    height: 50px;
-    border: none;
-    border-radius: 15px;
-    background: #4b4b4b;
-    color: #c6ace4;
-    font-size: 20px;
-    text-shadow: 0 0 10px #5e29b4;
-}
-
 /*center the bullet point on ul*/
 ul {
     display: inline-block;

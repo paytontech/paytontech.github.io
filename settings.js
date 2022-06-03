@@ -1,7 +1,7 @@
-var darkSettings = localStorage["darkSetting"] || "light"
+var darkSettings = localStorage.getItem("darkSetting", "light")
 function checkDarkMode() {
     console.log(darkSettings)
-    if (darkSettings == "light") {
+    if (localStorage["darkSetting"] == "light") {
         document.body.style = "background: linear-gradient(151deg, rgba(255,255,255,1) 0%, rgba(209,209,222,1) 35%, rgba(158,181,186,1) 100%); color: black;"
         document.getElementById("darkmode").innerHTML = `<img src="/assets/darkbutton.png"/>`
     } else {

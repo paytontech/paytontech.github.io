@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #028ac8, #0229c8, #025ec8, #4402c8, #be02c8);
+    background: rgb(255,255,255);
+    background: linear-gradient(151deg, rgba(255,255,255,1) 0%, rgba(209,209,222,1) 35%, rgba(158,181,186,1) 100%);
+    padding: 100px;
     background-size: 1000% 1000%;
-    color: white;
-    -webkit-animation: AnimationName 30s ease infinite;
-    -moz-animation: AnimationName 30s ease infinite;
-    animation: AnimationName 30s ease infinite;
+    color: black;
 }
 
 button {
@@ -40,18 +39,15 @@ button:active {
     font-size: 20px;
     text-shadow: 0 0 10px #5e29b4;
 }
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 5%}
-    50%{background-position:100% 96%}
-    100%{background-position:0% 5%}
+
+/*center the bullet point on ul*/
+ul {
+    display: inline-block;
+    margin: 0;
+    /* For IE, the outcast */
+    zoom:1;
+    *display: inline;
 }
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 5%}
-    50%{background-position:100% 96%}
-    100%{background-position:0% 5%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 5%}
-    50%{background-position:100% 96%}
-    100%{background-position:0% 5%}
+li {
+    padding-left: 20px;
 }

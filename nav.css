@@ -1,0 +1,41 @@
+@font-face {
+    font-family: sfrounded;
+    src: url(/sfrounded.ttf);
+  }
+  @font-face {
+    font-family: sfsemibold;
+    src: url(/sfprosemibold.otf);
+  }
+  @font-face {
+    font-family: sfpro;
+    src: url(/sfpro.otf);
+  }
+body {
+    background: linear-gradient(314deg, #693fc5, #7b24ba, #b624ba);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 43s ease infinite;
+    -moz-animation: AnimationName 43s ease infinite;
+    animation: AnimationName 43s ease infinite;
+    font-family: sfrounded;
+    color: white;
+    margin: auto;
+}
+h1 {
+    font-family: sfsemibold;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 11%}
+    50%{background-position:100% 90%}
+    100%{background-position:0% 11%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 11%}
+    50%{background-position:100% 90%}
+    100%{background-position:0% 11%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 11%}
+    50%{background-position:100% 90%}
+    100%{background-position:0% 11%}
+}

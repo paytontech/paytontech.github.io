@@ -1,0 +1,19 @@
+{
+  "name": "journal-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "author": "paytondev",
+  "license": "ISC",
+  "bin": {
+    "journal-cli": "./bin/index.js"
+  },
+  "dependencies": {
+    "commander": "^9.3.0",
+    "node-fetch": "^3.2.6",
+    "yargs": "^17.5.1"
+  }
+}
